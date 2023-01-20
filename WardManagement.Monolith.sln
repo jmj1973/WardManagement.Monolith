@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BD7153D-E0E2-4940-81AE-8A9435152A48}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+		README.md = README.md
+		doc\RELEASE.md = doc\RELEASE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14D99FB3-B73A-45C1-87FC-6D45E0EFAA3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E439D671-B27D-4943-B5A3-5734497A0E93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BB17CE79-5256-44A8-9A37-EB97CDDD7366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F4160D99-59D1-47BF-96BD-DED267AC4006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{0C225BB4-5238-4EF9-8EF9-5F2AC93E44A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4E57A346-9107-4438-BDDD-01A7B6421575}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB17CE79-5256-44A8-9A37-EB97CDDD7366} = {14D99FB3-B73A-45C1-87FC-6D45E0EFAA3E}
+		{F4160D99-59D1-47BF-96BD-DED267AC4006} = {14D99FB3-B73A-45C1-87FC-6D45E0EFAA3E}
+		{0C225BB4-5238-4EF9-8EF9-5F2AC93E44A7} = {14D99FB3-B73A-45C1-87FC-6D45E0EFAA3E}
+		{4E57A346-9107-4438-BDDD-01A7B6421575} = {14D99FB3-B73A-45C1-87FC-6D45E0EFAA3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68BAAD34-5EEB-44FC-AFD1-5267838417AD}
+	EndGlobalSection
+EndGlobal
