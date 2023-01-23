@@ -16,10 +16,19 @@
  Change appsettings.json to your SQL/SQLExpress DB
 
 
-
-
  ## Steps
 
  1. Create a blank soloution
     - Folder structure: src and tests
+    ```
+    dotnet new sln -o WardManagement.Monolith
+    cd WardManagement.Monolith
+    mkdir src
+    mkdir test
+    ```    
+ 2. Setup the project
+    ```
+    dotnet new mvc -f net6.0 -au Individual -n WardManagement.Monolith -o src/WardManagement.Monolith
+    dotnet sln add src/WardManagement.Monolith/WardManagement.Monolith.csproj
+    ```
 
