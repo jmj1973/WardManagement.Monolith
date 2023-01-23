@@ -1,5 +1,7 @@
 # WardManagement.Monolith
  Use Visual Studio 2022 and .Net 6.0
+ 
+ [Release](doc/RELEASE.md)
 
 ## Visual Studio 2022
  Microsoft Visual Studio Community 2022 (64-bit) - Current
