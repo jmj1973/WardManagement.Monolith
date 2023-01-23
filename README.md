@@ -22,6 +22,7 @@
     ```
     dotnet new sln -o WardManagement.Monolith
     cd WardManagement.Monolith
+    mkdir doc
     mkdir src
     mkdir test
     ```  
